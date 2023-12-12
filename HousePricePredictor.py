@@ -11,7 +11,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_house_price_model=pickle.load(open("C:/Users/PC12/Downloads/house_price_predictor.sav",'rb'))
+loaded_house_price_model=pickle.load(open("house_price_predictor.sav",'rb'))
 
 def house_price_prediction(input_data):
   input_data_as_numpy_array=np.asarray(input_data)
