@@ -32,5 +32,11 @@ def main ():
     diagnosis=house_price_prediction([SquareFeet,Bedrooms,Bathrooms,Neighborhood,YearBuilt])
   st.success(diagnosis)
 
+st.write(st.__version__)
+st.write(np.__version__)
+st.write(pickle.__version__)
+
 if __name__=='__main__':
   main()
+
+
