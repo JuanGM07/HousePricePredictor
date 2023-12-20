@@ -1,2 +1,0 @@
-# ProjectX
-No description needed
