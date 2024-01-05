@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 
 imagen="edif.jpg"
-logo="cover.png"
+logo="cover-superdark.png"
 icono="house.jpg"
 path="house_price_predictor.sav"
 loaded_house_price_model=pickle.load(open(path,'rb'))
