@@ -32,7 +32,7 @@ def house_price_prediction(input_data,loaded_house_price_model):
 
 
 def main ():
-  st.image('cover.png',width=None)
+  st.image('cover-superdark.png',width=None)
   st.write("Hello, I am Juan Gonzalez, engineer student and data scientist.")
   st.write('For any request my e-mail is: juanglezm3@gmail.com.')
   st.title ('House Price Prediction')
